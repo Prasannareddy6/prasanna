@@ -1,0 +1,15 @@
+#include <stdlib.h>
+int main()
+{
+    int num;
+    printf("Enter an integer number: ");
+    scanf("%d",&num);
+    (num%2==0) ? printf("%d is an even",num): printf("%d is an odd",num);
+    getch();
+    return 0;
+}
+output:
+m=6
+n=15
+odd number=7,9,11,13
+even number=8,10,12,14
