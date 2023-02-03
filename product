@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,product;
+	printf("Enter two numbers:");
+	scanf("%d %d",&a,&b);
+	product=a*b;
+	printf("Product of two numbers: %d",product);
+	return  0;
+}
+out put:
+enter two numbers:23
+prouct of 23=6
