@@ -1,0 +1,28 @@
+#include<stdio.h>
+void checkarmstrong();
+int main()
+	{
+	checkarmstrong();
+	return 	0;
+	}
+	void checkarmstrong()
+	{
+	int number,remainder,total=0,temp;
+	printf("enter the number");
+	scanf("%d",&number);
+	temp=number;
+	while(number>0)
+	{
+	remainder=number%10;
+	total=total+(remainder*remainder*remainder);
+	number=number/10;
+}
+if(temp=total)
+{
+	printf("it is an armstrong number");
+}
+else
+{
+	printf("it is not a armstrong number")
+}
+	}
